@@ -36,7 +36,7 @@ export default {
     name: 'AnimatedNumber', // vue component name
     props: {
         number: { default: 0 },
-        timing: { default: 2000 },
+        duration: { default: 2000 },
         easing: { default: defaultEasing }
     },
     watch: {
@@ -48,7 +48,7 @@ export default {
                 : easingFunctions[defaultEasing];
             const time = {
                 start: performance.now(),
-                total: this.timing
+                total: this.duration
             };
             const tick = now => {
                 if (this.displayNumber === this.number) return;
