@@ -1,6 +1,6 @@
 {
   "name": "vue-animated-count-to",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy to use, depended free Vue Count-to Component with animations.\n",
   "main": "dist/AnimatedNumber.umd.js",
   "module": "dist/AnimatedNumber.esm.js",
